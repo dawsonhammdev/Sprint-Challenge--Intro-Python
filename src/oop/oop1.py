@@ -17,3 +17,7 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+# Vehicle is the base class
+
+

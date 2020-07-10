@@ -35,6 +35,7 @@ print(b)
 
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with any letter between 'C' and 'G' inclusive.
+import re
 print("Starts between C and G, inclusive:")
 c = []
 print(c)
@@ -66,6 +67,5 @@ print(g)
 
 # Write a list comprehension that contains the square root of all the ages.
 print("Square root of ages:")
-import math
 h = []
 print(h)
