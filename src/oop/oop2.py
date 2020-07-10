@@ -9,6 +9,10 @@ class GroundVehicle():
          
 
     # TODO
+    def drive(self):
+        s = "vroooom"
+        return str(s)
+
 
 
 # Subclass Motorcycle from GroundVehicle.
@@ -42,3 +46,5 @@ vehicles = [
 # TODO
 
 
+for vehicle in vehicles:
+    print(vehicle.drive())
