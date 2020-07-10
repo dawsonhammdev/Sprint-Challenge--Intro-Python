@@ -37,18 +37,18 @@ print(b)
 # whose name starts with any letter between 'C' and 'G' inclusive.
 import re
 print("Starts between C and G, inclusive:")
-c = []
+c = [name.name for name in humans if re.match('^[c-g,C-G]', name.name)]
 print(c)
 
 # Write a list comprehension that creates a list of all the ages plus 10.
 print("Ages plus 10:")
-d = []
+d = [age.age + 10 for age in humans]
 print(d)
 
 # Write a list comprehension that creates a list of strings which are the name
 # joined to the age with a hyphen, for example "David-31", for all humans.
 print("Name hyphen age:")
-e = []
+e = [str(nameage.name)+ "-"+ str(nameage.age) for nameage in humans]
 print(e)
 
 # Write a list comprehension that creates a list of tuples containing name and
